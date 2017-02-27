@@ -37,7 +37,7 @@ brew install wget --with-iri
 # Install our custom packages:
 
 brew install awscli
-brew install composer
+brew install php/composer
 brew install git
 # brew install heroku-toolbelt
 brew install hub
