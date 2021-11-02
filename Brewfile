@@ -11,7 +11,7 @@ brew 'gh'
 brew 'git'
 brew 'gnupg'
 brew 'graphicsmagick'
-brew 'imagemagick --with-webp'
+brew 'imagemagick' --with-webp
 brew 'mackup'
 brew 'mas'
 brew 'openssl'
