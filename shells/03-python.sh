@@ -14,7 +14,7 @@ print_success "Completed..."
 if [[ ! -f $(which poetry) ]]
 then
   print_info "Installing Poetry..."
-  python -c "$(curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py)"
+  python -c "$(curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py)"
   print_success "Completed..."
 else
   print_success "Skipping Poetry..."
