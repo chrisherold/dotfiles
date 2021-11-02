@@ -2,10 +2,8 @@
 
 echo "=> Oh My Zsh"
 
-
-print_info "Installing..."
-
 if [[ ! -d "$HOME/.oh-my-zsh" ]]; then
+  print_info "Installing..."
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
   #add poetry to oh my zsh
