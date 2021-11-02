@@ -15,7 +15,7 @@ do
 
   if ! yarn global list --depth=0 | grep -q $PACKAGE
   then
-    yarn global install --silent $PACKAGE
+    yarn global add --silent $PACKAGE
     print_success "Completed..."
   else
     print_success "Skipping..."
