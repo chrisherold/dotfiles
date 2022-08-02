@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Automatic Daily Boot (when charging)
-sudo pmset repeat wakeorpoweron MTWRF 08:00:00
+# sudo pmset repeat wakeorpoweron MTWRF 08:00:00
 
 # Borrowed some from:
 # https://github.com/mathiasbynens/dotfiles/blob/master/.macos
